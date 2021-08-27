@@ -1,0 +1,67 @@
+body {
+  margin: auto;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 3px;
+  padding: 5px;
+}
+
+.container {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  flex-direction: column;
+}
+
+img {
+  display: inline;
+}
+
+#form {
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 500px;
+  height: 30px;
+  font-size: 30px;
+  margin-top: 20px;
+  display: flex;
+}
+input {
+  width: 90%;
+  border: 0 solid black;
+}
+#buttons {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  height: 36px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+}
